@@ -17,6 +17,9 @@ public class Konveksi {
 	        System.out.println("Hasil Kurs = ");
 	        System.out.println("Dolar = " + dolar);
 	        System.out.println("Euro = " + euro);
+	       
+	        
+	        //ketertanga
 
 	}
 
