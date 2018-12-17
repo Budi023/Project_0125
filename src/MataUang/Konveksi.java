@@ -5,21 +5,25 @@ import java.util.Scanner;
 public class Konveksi {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-		
 		    Scanner masukan = new Scanner(System.in);
-	        float rupiah, dolar, euro;
+	        float rupiah, dolar;
+	        
 	        System.out.print("Masukan Rupiah = ");
+	        
 	        rupiah = masukan.nextFloat();
-	        dolar = (float) (rupiah*0.0001);
-	        euro = (float) (rupiah*0.00004);
+	        dolar = masukan.nextFloat();
+	        
+	        rupiah = (float) (dolar*14000);
+	        dolar = (float) (rupiah/14000);
+	        
 	        System.out.println();
-	        System.out.println("Hasil Kurs = ");
+	        System.out.println("Hasil Konversi = ");
 	        System.out.println("Dolar = " + dolar);
-	        System.out.println("Euro = " + euro);
+	        System.out.println("Rupiah = " + rupiah);
 	       
 	        
-	        //ketertanga
+	        //ketertanga dolar
+	        
 
 	}
 
